@@ -26,6 +26,10 @@ int main()
     brotherDog.name = "Stella";
     brotherDog.age = 1;
 
+    dog uncleDog; // Object of class dog
+    uncleDog.name = "Hugo";
+    uncleDog.age = 5;
+
     // Clover
     std::cout << myDog.name;
     std::cout << "\n";
@@ -36,6 +40,12 @@ int main()
     std::cout << brotherDog.name;
     std::cout << "\n";
     std::cout << brotherDog.age;
+    std::cout << "\n";
+
+    // Hugo
+    std::cout << uncleDog.name;
+    std::cout << "\n";
+    std::cout << uncleDog.age;
     std::cout << "\n";
 
     return 0;

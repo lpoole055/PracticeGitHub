@@ -5,7 +5,6 @@ int main()
 {
     std::cout << "Hello World!" << std::endl;
     std::cout << "CHANGE" << std::endl;
-    std::cout << "CHANGE2" << std::endl;
     std::cout << "This is my test code for C++." << std::endl;
     std::cout << "Do not forget to compile first before running!" << std::endl;
 

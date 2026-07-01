@@ -9,7 +9,7 @@ int main()
     std::cout << "Do not forget to compile first before running!" << std::endl;
 
     int userInput;
-    std::cin >> userInput;
+    // std::cin >> userInput;
 
     class dog
     {

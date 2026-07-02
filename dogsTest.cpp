@@ -7,7 +7,7 @@ int main()
     std::cout << "This is my test code for C++." << std::endl;
     std::cout << "Do not forget to compile first before running!" << std::endl;
 
-    int userInput;
+    // int userInput;
     // std::cin >> userInput;
 
     class dog
@@ -29,6 +29,10 @@ int main()
     uncleDog.name = "Hugo";
     uncleDog.age = 5;
 
+    dog cousinDog; // Object of class dog
+    cousinDog.name = "Gus";
+    cousinDog.age = 1;
+
     // Clover
     std::cout << myDog.name;
     std::cout << "\n";
@@ -45,6 +49,12 @@ int main()
     std::cout << uncleDog.name;
     std::cout << "\n";
     std::cout << uncleDog.age;
+    std::cout << "\n";
+
+    // Gus
+    std::cout << cousinDog.name;
+    std::cout << "\n";
+    std::cout << cousinDog.age;
     std::cout << "\n";
 
     return 0;
